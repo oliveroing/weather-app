@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.details {
+  background: #999;
+  height: 90vh;
+  width: calc(100% - 40px);
+  overflow: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+@media (max-width: 64em) {
+  .details {
+    background: #999;
+    height: 40vh;
+  }
+}
